@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 80px solid white;
 }
 
 html, body {
@@ -64,16 +65,17 @@ h1, h2, h3, h4, h5 {
 
 .Top {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    padding: 5px;
+
 }
-
-.logo {
-    justify-content: flex-start;
-}
-
-.toplinks {
-    padding: 10%;
-
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 2%;
+    font-size: 14px;
 }
 
 p {
@@ -192,15 +194,13 @@ footer nav a {
 
 .boxes {
     display: flex;
-    justify-content: center;
+
 }
 .boxes .firstrow {
-    flex-direction: row;
+    margin: 40px;
+
 }
 
-.boxes .secondrow {
-    flex-direction: row;
-}
 .about-page {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;

@@ -198,7 +198,7 @@ footer nav a {
 }
 .boxes .firstrow {
     margin: 40px;
-
+    flex-direction: column;
 }
 
 .about-page {
